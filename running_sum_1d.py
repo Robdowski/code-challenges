@@ -8,7 +8,7 @@ Example output [1, 2, 3, 4] --> [1, 3, 6, 10]
 """
 
 class Solution:
-    def runningSum(self, nums: List[int]) -> List[int]:
+    def runningSum(self, nums):
         running_sum = 0
         
         for i in range(len(nums)):
