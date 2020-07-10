@@ -5,6 +5,9 @@ To do this, we can simply declare a variable, running sum, and add it to each it
 variable to add to the running sum.
 
 Example output [1, 2, 3, 4] --> [1, 3, 6, 10]
+
+Runtime Complexity: O(n)
+Space Complexity: O(1)
 """
 
 class Solution:
